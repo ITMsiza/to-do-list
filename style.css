@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, rgba(37,63,75,1), rgba(37,63,75,0.7));
+
+}
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px; 
+
+}
+.heading{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:beige;
+}
+.inputField{
+    width: 406px;
+    position: relative;
+   
+}
+#data{
+    background-color: black;
+    color: gray;
+    border-radius: 20px 0 0 20px;
+    width: 305px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 0px;
+   
+}
+#button{
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+}
+.raws{
+    min-width: 13em;
+    max-height: 33px;
+    background-color: #36454f;
+    outline: none;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;  
+    padding: 2px;
+}
+.raws .icons{
+    right: 0.2em;
+    display: flex;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+.raws p{
+    left: 10px;
+    position: relative;
+    bottom: 10px;
+    flex: 80%;
+    margin-right: 20px;
+}
+.fas{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.fa{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+.canceled {
+    text-decoration: line-through;
+    color: red;
+}
+#date{
+    color: gray;
+
+}
